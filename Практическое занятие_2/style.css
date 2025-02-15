@@ -1,0 +1,64 @@
+body {
+    color: #009933;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+p {
+    letter-spacing: 10px;
+}
+
+.kursiv {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.ghost {
+    font-family: Comic Sans;
+    font-size: 25pt;
+    text-indent: 50px;
+}
+
+.rich {
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    color: orange;
+}
+
+.declasse {
+    font-family: Courier;
+    font-size: 12pt;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+
+.red {
+    color: #FF0000;
+    text-transform: uppercase;
+}
+
+.perenos {
+    white-space: nowrap;
+}
+
+.AZ1 {
+    font-family: tahoma;
+    text-shadow: blue;
+    font-style: italic;
+    font-size: 120%;
+}
+
+.AZ2 {
+    color: aquamarine;
+    text-transform: lowercase;
+    white-space: nowrap;
+    font-stretch: expanded;
+}
+
+.AZ3 {
+    text-indent: 150%;
+    font-weight: bold;
+    word-spacing: 15px;
+    text-decoration: underline;
+}
