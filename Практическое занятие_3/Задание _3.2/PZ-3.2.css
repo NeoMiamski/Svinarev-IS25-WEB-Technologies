@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: #AE0346;
+}
+body {
+    background: pink;
+    font-family: 'Times New Roman';
+}
+table {
+    text-align: left;
+    border: 6px outset white;
+}
+
+th, td {
+    padding: 3px;
+    border: 2px outset white;
+}
+.timeline {
+    color: pink;
+    background: #AE0346;
+}

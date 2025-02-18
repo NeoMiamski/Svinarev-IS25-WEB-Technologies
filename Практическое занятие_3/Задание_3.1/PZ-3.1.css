@@ -1,0 +1,23 @@
+body {
+    background-image: url(y.jpg);
+    font-family: 'Times New Roman';
+}
+
+h1 {
+    text-align: center;
+    color: #AE0346;
+}
+table {
+    text-align: left;
+    border: 6px outset lightgrey;
+}
+
+th {
+    padding: 3px;
+    border: 2px outset lightgrey;
+}
+
+.headofhead {
+    color: #AE0346;
+    background: lightgrey;
+}
