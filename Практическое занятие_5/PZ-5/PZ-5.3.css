@@ -1,0 +1,23 @@
+.clearfix{
+	clear: both;
+}
+.menu3 a:hover{
+font-weight: bold
+}
+.menu3 {list-style-type: none; width: 200px}
+.menu3 li{margin-bottom: 5px;}
+.menu3 a:link, .menu2 a:visited{
+	text-decoration: none;
+	color: white;
+	background-color: rgb(63, 63, 63);
+	font: 13px Arial;
+	border: 1px solid black;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+.menu3 a:hover{
+    font-weight: bold;
+	color: rgb(63, 63, 63);
+	background-color: white;
+}
