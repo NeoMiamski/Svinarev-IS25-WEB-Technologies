@@ -1,0 +1,20 @@
+#fixed{
+	
+	position: fixed;
+	left: 0px;
+	top: 0px; 
+	width: 100%;
+	height: 50px;
+	background-color: #9fac2f;
+	text-align: center;
+	line-height: 50px;
+	font-size: 21px;
+	color: white;
+	border-top: 1px solid #9fac2f;
+}
+#text{
+	width: 600px;
+	margin: 60px auto 60px auto;
+	padding: 20px;
+	border: 1px solid #9fac2f;
+}
