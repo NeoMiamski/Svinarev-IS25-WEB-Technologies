@@ -1,0 +1,23 @@
+.menu9 {list-style-type: none;}
+.menu9 li{margin-right: 4px; float: left;}
+
+.menu91 a:link, .menu91 a:visited{
+	text-decoration: none;
+	font: 13px Arial;
+	color: rgb(63, 63, 63);
+}
+
+.menu92 a:link, .menu92 a:visited{
+	text-decoration: none;
+	font: 13px Arial;
+	color: rgb(192, 192, 192);
+}
+
+a:hover, a:active{
+	color: red;
+	text-decoration: none;
+
+}
+.days {
+	border-bottom: 1 solid black;
+}
