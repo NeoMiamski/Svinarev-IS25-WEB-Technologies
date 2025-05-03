@@ -1,0 +1,10 @@
+a:link, a:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+.more {
+    padding: 90%;
+    font-weight: bold;
+}
+
