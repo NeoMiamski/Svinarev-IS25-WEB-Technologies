@@ -3,17 +3,18 @@
 <head>
 	<meta charset="utf-8">
 	<title>Позиционирование</title>
-	<link rel="stylesheet" href="PZ6.1-2.css">
+	<link rel="stylesheet" href="PZ7.css">
 </head>
 <body>
 	<form action="" method="GET">
-    	<input type="checkbox"><br><br>
-	    <input type="checkbox" checked><br><br>
-        <input type="checkbox" disabled><br><br>
-        <article>
-            <input type="radio" name="r1"><br><br>
-            <input type="radio" name="r1"><br><br>
+    	<label class="red"><input type="checkbox">Это метка для чекбокса: нажмите на меня - чекбокс сменит галочку!</label><br><br>
+	    <label class="red"><input type="checkbox" checked>Это метка</label><br><br>
+        <label class="red"><input type="checkbox" disabled>Это метка</label><br><br>
+        <article class="radiogroup">
+            <label class="red"><input type="radio" name="r1">Это метка для радио</label><br><br>
+            <label class="red"><input type="radio" name="r1">Это метка для радио</label><br><br>
         </article>
+		<input type="submit">
 	</form>
 </body>
 </html>
