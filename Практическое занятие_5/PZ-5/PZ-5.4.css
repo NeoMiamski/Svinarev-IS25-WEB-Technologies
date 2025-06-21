@@ -1,3 +1,8 @@
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
 .clearfix{
 	clear: both;
 }
@@ -6,7 +11,7 @@ font-weight: bold
 }
 .menu4 {list-style-type: none; width: 200px}
 .menu4 li{margin-bottom: 5px;}
-.menu4 a:link, .menu2 a:visited{
+.menu4 a:link, .menu4 a:visited{
 	text-decoration: none;
 	color: white;
 	background-color: rgb(0, 132, 255);
@@ -16,8 +21,11 @@ font-weight: bold
 	padding: 0px 5px;
 	line-height: 30px;
 }
-.menu4 a:hover{
-    font-weight: bold;
-	color: purple;
-	background-color: white;
-}
+	.menu4 a:hover {
+		font-weight: bold;
+		color: purple;
+		background-color: white;
+		background-image: url('airplane.png');
+		background-repeat: no-repeat;
+		background-position: right;
+	}
