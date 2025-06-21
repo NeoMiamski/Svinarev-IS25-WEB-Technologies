@@ -1,22 +1,30 @@
+.cols1 {
+	color: rgb(63, 63, 63);
+}
 
+.cols2 {
+	color: rgb(192, 192, 192);
+}
 
-.cols1 a:link, .cols1 a:visited{
+.cols1 td:link, .cols1 td:visited{
 	text-decoration: none;
 	font: 13px Arial;
 	color: rgb(63, 63, 63);
 }
 
-.cols2 a:link, .cols2 a:visited{
+.cols2 td:link, .cols2 td:visited{
 	text-decoration: none;
 	font: 13px Arial;
 	color: rgb(192, 192, 192);
 }
 
-a:hover, a.active{
+.cols1, .cols2 td:hover, .cols1 td:active {
 	color: red;
 	text-decoration: none;
-
+	cursor: pointer;
 }
-.days {
-	border-bottom: black;
+
+.thead {
+	border-bottom: 1px solid black;
+	border-collapse: collapse;
 }

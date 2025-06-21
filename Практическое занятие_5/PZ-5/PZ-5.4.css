@@ -21,11 +21,12 @@ font-weight: bold
 	padding: 0px 5px;
 	line-height: 30px;
 }
-	.menu4 a:hover {
-		font-weight: bold;
-		color: purple;
-		background-color: white;
-		background-image: url('airplane.png');
-		background-repeat: no-repeat;
-		background-position: right;
-	}
+.menu4 a:hover {
+	font-weight: bold;
+	color: purple;
+	background-color: white;
+	background-image: url('plane.png');
+	background-size: 10%;
+	background-repeat: no-repeat;
+	background-position: right;
+}
