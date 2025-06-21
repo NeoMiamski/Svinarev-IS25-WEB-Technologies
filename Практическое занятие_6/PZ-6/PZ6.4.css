@@ -1,37 +1,22 @@
-h2 {
-    color: rgb(255, 0, 170);
-}
 
-a:link, a:visited {
-	text-decoration: none;
-	color: green;
-    font-weight: bold;
-}
 
-.more {
-    padding: 90%;
-    color: rgb(255, 0, 170);
+.web {
+	list-style-type: arabic-indic;
 }
 
 article {
-    background-color: #484848;
-    border: #484848;
-    width: 600px;
-	margin: 10px auto 60px auto;
-	padding: 20px;
-
+	background: #404040;
+	padding: 2px;
 }
 
-.menu6 {list-style-type: none;}
-.menu6 li{margin-right: 4px; float: left;}
-.menu6 a:link, .menu5 a:visited{
+.web a:link, .web a:visited {
 	text-decoration: none;
-	color: blue;
+	color: white;
 	font: 13px Arial;
-	border: 1px solid #1A31A2;
-	padding: 5px;
+	padding: 18px;
 }
-.menu6 a:hover, .menu5 a.active{
-	color: rgb(255, 255, 255);
-	background-color: rgb(63, 63, 63);
+
+.web a:hover, .web a.active {
+	color: black;
+	background-color: white;
 }
