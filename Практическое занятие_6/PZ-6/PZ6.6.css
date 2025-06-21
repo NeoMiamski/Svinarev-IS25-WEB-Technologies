@@ -1,0 +1,19 @@
+
+
+div {
+	color: green;
+	border: dashed 1px green;
+	border-radius: 20px;
+}
+
+.web a:link, .web a:visited {
+	text-decoration: none;
+	color: white;
+	font: 13px Arial;
+	padding: 18px;
+}
+
+.web a:hover, .web a.active {
+	color: black;
+	background-color: white;
+}
