@@ -1,0 +1,27 @@
+﻿
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 77px;
+    height: 100%;
+}
+
+
+.info__form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.info__input_long {
+    width: 520px;
+}
+
+.info__input_short {
+    width: 320px;
+}

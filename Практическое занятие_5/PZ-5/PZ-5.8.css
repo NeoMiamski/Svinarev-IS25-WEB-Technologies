@@ -23,3 +23,7 @@ article {
 	color: white;
 	background-color: red;
 }
+
+.clearfix {
+	clear: both;
+}

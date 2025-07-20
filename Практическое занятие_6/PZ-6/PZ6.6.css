@@ -1,19 +1,29 @@
 
 
 div {
-	color: green;
-	border: dashed 1px green;
+	border: solid 3px red;
 	border-radius: 20px;
+	padding: 25px;
 }
 
-.web a:link, .web a:visited {
-	text-decoration: none;
-	color: white;
-	font: 13px Arial;
-	padding: 18px;
+h1, h2 {
+	color: brown;
+	font-weight: bold;
 }
 
-.web a:hover, .web a.active {
-	color: black;
-	background-color: white;
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.author {
+    text-align: right;
+	font-style: italic;
+	font-family: 8pt Arial;
+}
+
+.web {
 }

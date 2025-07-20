@@ -11,3 +11,6 @@
 	color: red;
 
 }
+.clearfix {
+	clear: both;
+}

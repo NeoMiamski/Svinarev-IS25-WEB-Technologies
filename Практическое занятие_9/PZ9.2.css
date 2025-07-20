@@ -1,0 +1,30 @@
+﻿.expert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.expert_icon {}
+
+.expert_title {
+    margin-top: 77px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.expert_form_conteiner {
+    height: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.expert_form-wrap {
+    justify-content: space-between;
+    order: 3;
+}
+
+.expert_label {}

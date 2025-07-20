@@ -1,7 +1,8 @@
-
+h1, p {padding: 10px;}
 
 .web {
 	list-style-type: arabic-indic;
+	border: solid black 2px;
 }
 
 article {
