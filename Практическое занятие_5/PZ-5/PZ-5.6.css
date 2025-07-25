@@ -1,6 +1,11 @@
+article {
+	border: dotted 2px darkgrey;
+	padding: 20px;
+}
+
 .menu6 {list-style-type: none;}
 .menu6 li{margin-right: 4px; float: left;}
-.menu6 a:link, .menu5 a:visited{
+.menu6 a:link, .menu6 a:visited{
 	text-decoration: none;
 	color: blue;
 	font: 13px Arial;

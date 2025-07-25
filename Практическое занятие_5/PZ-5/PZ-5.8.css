@@ -1,15 +1,18 @@
+.out {
+	border: dotted 2px darkgrey;
+	padding: 20px;
+}
+
+
 .menu8 {
 	list-style-type: none;
+	border: solid, 1px, orange;
+	background: orange;
 }
 
 .menu8 li {
 	margin-right: 4px;
 	float: left;
-}
-
-article {
-	border: solid, 1px, orange;
-	background: orange;
 }
 
 .menu8 a:link, .menu8 a:visited {

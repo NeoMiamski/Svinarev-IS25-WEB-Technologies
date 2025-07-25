@@ -7,21 +7,33 @@
     flex-direction: column;
     margin-top: 77px;
     height: 100%;
+    font-family: Arial;
 }
 
+.info_title {
+    font-weight: 100;
+}
 
-.info__form {
+.info_form {
+    align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 100%;
-    margin-top: 50px;
 }
 
-.info__input_long {
+.info_input_long {
+    text-align: center;
     width: 520px;
+    height: 25px;
+    display: block;
+    margin: 10px;
 }
 
-.info__input_short {
+.info_input_short {
+    text-align: center;
     width: 320px;
+    height: 25px;
+    display: block;
+    margin: 10px;
 }

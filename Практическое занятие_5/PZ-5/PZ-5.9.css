@@ -1,32 +1,43 @@
-.cols1 {
+article {
+	border: dotted 2px darkgrey;
+	padding: 20px;
+	text-align: center;
+}
+
+.border {
+	border-collapse: collapse;
+	background-color: rgb(63, 63, 63);
+}
+
+.days {
 	color: rgb(63, 63, 63);
+	font-family: Arial;
 }
 
-.cols2 {
-	color: rgb(192, 192, 192);
+.weekend {
+	color: rgb(192, 192, 224);
 }
 
-.cols1 td:link, .cols1 td:visited{
+.days a:link, .days a:visited {
 	text-decoration: none;
 	font: 13px Arial;
 	color: rgb(63, 63, 63);
 }
 
-.cols2 td:link, .cols2 td:visited{
+.weekend a:link, .weekend a:visited {
 	text-decoration: none;
 	font: 13px Arial;
-	color: rgb(192, 192, 192);
+	color: rgb(192, 192, 224);
 }
 
-.cols1, .cols2 td:hover, .cols1 td:active {
+.days a:hover, .days a:active {
 	color: red;
 	text-decoration: none;
-	cursor: pointer;
 }
 
-.thead {
-	border-bottom: 1px solid black;
-	border-collapse: collapse;
+.weekend a:hover, .weekend a:active {
+	color: red;
+	text-decoration: none;
 }
 
 .clearfix {

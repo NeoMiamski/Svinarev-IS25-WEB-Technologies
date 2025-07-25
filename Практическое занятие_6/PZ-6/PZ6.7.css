@@ -1,21 +1,52 @@
-
-
-div {
-	color: green;
-	border: dashed 1px green;
-	border-radius: 20px;
+.upper {
+	background-color: orange;
+	padding: 20px;
+	margin: 0%;
+	font-family: arial;
 }
 
-.web {}
+	.upper a:link, .upper a:visited {
+		padding: 20px;
+		color: white;
+		text-decoration: none;
+	}
+
+.upper a:hover, .upper a.active {
+	color: orange;
+	background-color: white;
+	padding: 22px;
+}
+
+.lower {
+	color: saddlebrown;
+	font-weight: bold;
+	text-align: center;
+}
+
+.lower a:link, .lower a:visited {
+	color: darkgoldenrod;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+div {
+	color: darkgoldenrod;
+	border: outset 2px orange;
+	text-align: center;
+}
+
+h1, h2 {
+	color: saddlebrown;
+}
 
 .web a:link, .web a:visited {
-	text-decoration: none;
-	color: white;
-	font: 13px Arial;
-	padding: 18px;
+	color: darkgoldenrod;
+	text-decoration: underline;
+	font-weight: bold;
 }
 
 .web a:hover, .web a.active {
 	color: black;
 	background-color: white;
+	color: darkgoldenrod;
 }

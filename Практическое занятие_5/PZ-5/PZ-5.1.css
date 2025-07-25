@@ -1,3 +1,8 @@
+article {
+	border: dotted 2px darkgrey;
+	padding: 20px;
+}
+
 ul{
 	padding: 0px;
 	margin: 0px;
