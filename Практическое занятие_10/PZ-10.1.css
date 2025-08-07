@@ -14,6 +14,15 @@ header {
 
 footer {
     background-color: #303030;
+
+}
+
+.divfoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
 }
 
 .container {
