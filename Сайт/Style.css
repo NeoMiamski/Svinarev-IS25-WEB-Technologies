@@ -1,0 +1,67 @@
+﻿header {
+    background-color: #A00000;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    align-items: center;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.5);
+}
+
+article {
+    background-color: #404040;
+    border-radius: 16px;
+    padding: 8px;
+    margin: 24px 0;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.5);
+}
+
+body {
+    background-color: #202020;
+    list-style-type: none;
+    color: #F0F0F0;
+}
+
+footer {
+    background-color: #101010;
+}
+
+li {
+    margin-right: 4px;
+    float: left;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    font: 13px Arial;
+    padding: 24px;
+}
+
+a:hover, a.active {
+    color: #A00000;
+    background-color: #F0F0F0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.photo {
+    margin: 20px;
+}
+
+.description {
+    margin-left: 860px;
+    font-size: 20px;
+    word-break: break-all;
+}
+
+    .description p:nth-child(odd) {
+        color: #929292;
+        margin-bottom: 0px
+    }
+
+    .description p:nth-child(even) {
+        color: #1d1d1d;
+        margin-bottom: 50px
+    }

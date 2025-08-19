@@ -12,6 +12,44 @@ header {
     box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 364px;
+    background-image: url("images/11.png");
+ 
+}
+
+.popup {
+    padding: 18px 28px;
+    position: absolute;
+    top: 128px;
+    left: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
+    height: 180px;
+    width: 294px;
+}
+
+    .popup p:nth-child(2) {
+        font-size: 16px;
+        color: #626262;
+        margin: 150px -288px
+    }
+
+    .popup p:nth-child(3) {
+        font-size: 16px;
+        color: aliceblue;
+        border-radius: 12px;
+        border: solid 1px black;
+        background-color: #1D1D1D;
+        margin: -200px 230px 150px 250px;
+        padding: 10px;
+    }
+
 footer {
     background-color: #303030;
     color: white;
@@ -21,10 +59,28 @@ footer {
     margin-right: 60%;
 }
 
-nav {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.menu {
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+    .menu a:link, .menu a:visited {
+        text-decoration: none;
+        color: #626262;
+        padding: 10px;
+    }
+
+    .menu a:hover, .menu a.active {
+        color: #00AA00;
+        padding: 10px;
+    }
+
+li {
+    list-style-type: none;
+    float: left;
+    margin: 12px;
 }
 
 .divfoot {
@@ -87,14 +143,10 @@ nav {
     display: flex;
     justify-content: center;
     padding-bottom: 89px;
+    font-size: 22px;
+    margin-top: 56px;
+    margin-bottom: 0;
 }
-
-    .restor .container > p {
-        font-size: 22px;
-        margin-top: 56px;
-        margin-left: 1%;
-        margin-bottom: 0;
-    }
 
 .restor__price {
     display: flex;
@@ -104,20 +156,31 @@ nav {
 }
 
 .restor__price__elem {
-    flex: 0 308px;
-    margin-top: 36px;
+    flex: 308px;
+    margin: 36px;
+    border: solid 1px lightgrey;
+    height: 160px;
+    background-color: whitesmoke;
+    position: relative;
+
 }
 
+.restor__price__elem p {
+    margin: 12px;
+
+}
     .restor__price__elem p:nth-child(2) {
         font-size: 16px;
     }
 
     .restor__price__elem p:nth-child(3) {
+        font-size: 16px;
+        color: #1D1D1D;
+        font-weight: bold;
+        margin-top: 100px;
+    }
+    .restor__price__elem p:nth-child(4) {
         font-size: 14px;
         color: #626262;
-    }
-
-    .restor__price__elem p:nth-child(4) {
-        font-size: 13px;
-        color: #1D1D1D;
+        margin-top: -120px;
     }
